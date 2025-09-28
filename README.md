@@ -5,12 +5,12 @@ A comprehensive backtesting framework implementing five distinct trading strateg
 ![img_1.png](img_1.png)
 ## 📊 Key Performance Metrics
 
-| Strategy | Annual Return | Sharpe Ratio | Max Drawdown |
-|:----------|:---------------|:--------------|:--------------|
-| **Enhanced Multi-Factor** | **48.39%** | **1.84** | **-24.99%** |
-| **Event-Driven** | **39.01%** | **1.32** | **-17.50%** |
-| **Momentum** | 5.89% | 0.23 | -33.23% |
-| **Mean Reversion** | 0.62% | 0.02 | -30.84% |
+| Strategy                 | Annual Return | Sharpe Ratio | Max Drawdown |
+|:-------------------------|:---------------|:--------------|:--------------|
+| **Multi-Factor**         | **48.39%** | **1.84** | **-24.99%** |
+| **Event-Driven**         | **39.01%** | **1.32** | **-17.50%** |
+| **Momentum**             | 5.89% | 0.23 | -33.23% |
+| **Mean Reversion**       | 0.62% | 0.02 | -30.84% |
 | **Technical (RSI+MACD)** | -5.18% | -0.51 | -23.52% |
 
 ## 🎯 Project Overview
