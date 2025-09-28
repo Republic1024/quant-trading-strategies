@@ -7,7 +7,7 @@ A comprehensive backtesting framework implementing five distinct trading strateg
 
 | Strategy                 | Annual Return | Sharpe Ratio | Max Drawdown |
 |:-------------------------|:---------------|:--------------|:--------------|
-| **Multi-Factor**         | **48.39%** | **1.84** | **-24.99%** |
+| **4-Factor**             | **48.39%** | **1.84** | **-24.99%** |
 | **Event-Driven**         | **39.01%** | **1.32** | **-17.50%** |
 | **Momentum**             | 5.89% | 0.23 | -33.23% |
 | **Mean Reversion**       | 0.62% | 0.02 | -30.84% |
@@ -15,7 +15,7 @@ A comprehensive backtesting framework implementing five distinct trading strateg
 
 ## 🎯 Project Overview
 
-This project demonstrates the implementation and comparative analysis of quantitative trading strategies using **2.5 years of historical data (2023-2025)** across **8 major technology stocks**. The **enhanced multi-factor model** achieved a Sharpe ratio of **1.84** and **48.39% annualized return**, significantly outperforming traditional single-factor approaches in this period.
+This project demonstrates the implementation and comparative analysis of quantitative trading strategies using **2.5 years of historical data (2023-2025)** across **8 major technology stocks**. The **4-Factor model** achieved a Sharpe ratio of **1.84** and **48.39% annualized return**, significantly outperforming traditional single-factor approaches in this period.
 
 -----
 
@@ -65,7 +65,7 @@ The initial **Multi-Factor Model** combines three technical/price-action factors
 
 ### **The Enhancement: Integrating Fundamental Factors**
 
-The **Enhanced Multi-Factor** results ($\text{Sharpe}=1.84, \text{Return}=48.39\%$) are derived from an upgraded 4-factor structure that moves beyond price data by integrating fundamental signals:
+The **4-Factor** results ($\text{Sharpe}=1.84, \text{Return}=48.39\%$) are derived from an upgraded 4-factor structure that moves beyond price data by integrating fundamental signals:
 
   - **Value Factor Upgrade**: Replaced the simple Price Position proxy with a traditional **Earnings-to-Price (E/P)** ratio (reciprocal of Trailing PE).
   - **New Quality Factor**: Added **Return on Equity (ROE)** to select companies with strong, sustainable profitability and management efficiency.
