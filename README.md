@@ -1,7 +1,8 @@
 # Quantitative Trading Strategies for US Equities
 
 A comprehensive backtesting framework implementing five distinct trading strategies on major technology stocks, achieving institutional-grade performance metrics during the **2023-2025** market cycle.
-
+![img.png](img.png)
+![img_1.png](img_1.png)
 ## 📊 Key Performance Metrics
 
 | Strategy | Annual Return | Sharpe Ratio | Max Drawdown |
@@ -53,6 +54,7 @@ This project demonstrates the implementation and comparative analysis of quantit
   - **MACD**: Captures trend changes through exponential moving average crossovers.
   - **Combined Signal**: Buy when RSI $\lt 30$ AND MACD $\gt 0$; Sell when RSI $\gt 70$ AND MACD $\lt 0$.
 
+![img_2.png](img_2.png)
 -----
 
 ## 🔬 Detailed Factor Composition & Enhancement
